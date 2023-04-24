@@ -19,7 +19,7 @@ string getName(const string target)
 	for (size_t i = 0; i < size; i++) //Loop To Get Chars
 	{
 		symbol = target[i]; //Get Char On Given Index Of Path
-		if (symbol == '\\') 
+		if (symbol == '/') 
 		{
 			lastPos = i; //Get Position Of Backslash(\)
 		}
